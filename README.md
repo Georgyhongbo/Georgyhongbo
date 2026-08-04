@@ -26,6 +26,10 @@
 - 💬 欢迎交流，有问题可以直接找我～
 - ⚡ 喜欢写代码、逛 GitHub 看大牛的项目、研究各种开源工具
 
+## 🌟 开源贡献 Open Source Contributions
+
+- **TinyVue** -- [https://github.com/opentiny/tiny-vue](https://github.com/opentiny/tiny-vue) : 6个pr，4个issue(3个已做)
+
 ## 🛠️ 技术栈 Tech Stack
 
 <div align="center">
