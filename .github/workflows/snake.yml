@@ -1,0 +1,29 @@
+name: generate animation
+
+# 这个工作流会每天自动运行一次，把贪吃蛇图片生成后推送到 output 分支
+# 你也可以在 GitHub 仓库的 Actions 页面手动触发
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # 生成贪吃蛇 SVG（亮色 + 暗色两版）
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Georgyhongbo
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      # 推送到 output 分支，主页 README 就从这里读取图片
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
