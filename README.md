@@ -53,10 +53,6 @@
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Georgyhongbo&theme=onedark&layout=compact&langs_count=8&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Georgyhongbo&theme=onedark&hide_border=true" />
-</p>
-
 ## 🏆 GitHub 成就奖杯 GitHub Trophy
 
 <p align="center">
