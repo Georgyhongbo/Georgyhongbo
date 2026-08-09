@@ -50,12 +50,6 @@
 
 </div>
 
-## 🏆 GitHub 成就奖杯 GitHub Trophy
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Georgyhongbo&theme=onedark&no-frame=true&column=4&margin-w=8&margin-h=8" />
-</p>
-
 ## 📈 近期活动贡献图 Activity Graph
 
 <p align="center">
