@@ -28,7 +28,7 @@
 ## 🌟 开源贡献 Open Source Contributions
 
 - **TinyVue** -- [https://github.com/opentiny/tiny-vue](https://github.com/opentiny/tiny-vue) : 6个pr，4个issue(3个已做)
-- **Octop** -- [https://github.com/TencentCloud/Octop](https://github.com/TencentCloud/Octop) : 5个pr
+- **Octop** -- [https://github.com/TencentCloud/Octop](https://github.com/TencentCloud/Octop) : 6个pr
 
 ## 🛠️ 技术栈 Tech Stack
 
